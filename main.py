@@ -78,7 +78,7 @@ def pipeline(input_pdf, app_id, app_key, output_folder="output"):
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Usage: python pipeline.py input.pdf [output_folder]")
+        print("Usage: python main.py input.pdf [output_folder]")
         sys.exit(1)
 
     app_id = os.getenv("MATHPIX_APP_ID")
