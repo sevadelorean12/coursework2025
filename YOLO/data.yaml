@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['0', '1', '2']
+
+roboflow:
+  workspace: coursework2025
+  project: project1-djnib
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/coursework2025/project1-djnib/dataset/2
