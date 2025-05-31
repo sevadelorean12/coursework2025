@@ -7,12 +7,6 @@ import pytesseract
 from pix2tex.cli import LatexOCR
 import re
 
-IMAGE_PATH = "test yolo/image4.jpg"
-YOLO_TXT_PATH = "test yolo/runs/detect/predict13/labels/image4.txt"
-MODEL_CHECKPOINT = "C:/Users/HYPERPC/Desktop/Проектики на python/ocr project/training model/LaTeX-OCR/checkpoints/pix2tex/pix2tex_e10_step2511.pth"
-CONFIG_PATH = "C:/Users/HYPERPC/Desktop/Проектики на python/ocr project/training model/LaTeX-OCR/pix2tex/model/settings/config.yaml"
-OUTPUT_TEX = "output.tex"
-
 custom_preamble = r"""\documentclass[10pt]{article}
 \usepackage{ucharclasses}
 \usepackage{amsmath, amsfonts, amssymb}
