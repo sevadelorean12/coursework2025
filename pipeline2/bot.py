@@ -6,8 +6,9 @@ import asyncio
 import subprocess
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, CommandHandler, ContextTypes, filters
+import os
 
-BOT_TOKEN = "8111914883:AAGDlFSca2WNMLhVaT1IbhB-qEWzvn0-ICU"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 bar_width = 20
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
